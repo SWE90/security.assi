@@ -1,3 +1,25 @@
-body{
-  background-color:wheat;
+body{ 
+  background: #536976;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+#form{
+  width:300px;
+  margin:20vh auto 0 auto;
+  padding: 20px;
+  background-color: rgb(101, 123, 148);
+  border-radius: 4px;;
+  font-size: 12px;
+}
+#form h1{
+  color:black;
+  text-align: center;
+}
+#form button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color:white;
+}
+
