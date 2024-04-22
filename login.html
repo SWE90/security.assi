@@ -15,15 +15,10 @@
 
   <div class="container">
       <h2>Registration Form</h2>
-      <form action="new.php" method="POST" id="registrationForm" onsubmit="return validateForm()">
+      <form id="form" action="/" method="POST" >
           <div class="input-group">
-              <label for="firstName">First Name</label>
-              <input type="text" id="firstName" name="firstName" required>
-          </div>
-
-          <div class="input-group">
-              <label for="lastName">Last Name</label>
-              <input type="text" id="lastName" name="lastName" required>
+              <label for="Username">Username</label>
+              <input type="text" id="Username" name="Username" required>
           </div>
 
           <div class="input-group">
@@ -37,7 +32,7 @@
           </div>
           <div class="input-group">
             <label for="confirmpass">confirm password</label>
-            <input type="password" id="confirmpass" name="confirmpass" required palceholder="*********">
+            <input type="password" id="confirmpass" name="confirmpass" required>
         </div>
 
           <div class="input-group">
@@ -55,7 +50,6 @@
               <option value="">Select Branch</option>
               <option value="CSE">Computer Science</option>
               <option value="CSE">Software engineering</option>
-              <option value="ECE">Electronics and Communication</option>
           </select>
           </div>
 
