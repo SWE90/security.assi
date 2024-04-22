@@ -2,8 +2,9 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$confirmPassword = $_POST['confirmPassword'];
-
+$confirmpassword = $_POST['confirmpassword'];
+$gender = $_POST["gender"];
+$branch = $_POST["branch"];
 $errors = [];
 
 if ($name === '') {

@@ -2,7 +2,7 @@ const form= document.getElementById('form');
 const username = doucment.getElementById('usernamr');
 const email = doucment.getElementById('email');
 const password =document.getElementById('password');
-const password2 =document.getElementById('paasword2');
+const confirmpassword =document.getElementById('confirmpassword');
 
 form.addEventsListener('sumbit',e => { 
   e.preventDefault();
